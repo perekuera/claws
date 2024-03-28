@@ -1,6 +1,8 @@
-use std::process::{Command, exit};
+
 
 pub mod codecommit {
+    use std::process::{exit, Command};
+
     pub fn list_repositories(query: &str) {
         let output = Command::new("aws")
             .args(&["codecommit", "list-repositories", "--output", "text", "--query"])

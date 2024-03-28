@@ -6,5 +6,5 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-codecommit = { path = "./src/codecommit.rs" }
-codebuild = { path = "./src/codebuild.rs" }
+# codecommit = { path = "src/codecommit.rs" }
+# codebuild = { path = "src/codebuild.rs" }

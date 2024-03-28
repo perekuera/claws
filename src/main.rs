@@ -14,6 +14,7 @@ fn main() {
         exit(1);
     }
 
+    //comment
     let command = args[1].to_lowercase();
 
     match command.as_str() {
